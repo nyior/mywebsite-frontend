@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg py-3 pl-5 pr-5 my-navbar mb-5 fixed-top ">
+  <nav class="navbar navbar-expand-lg py-3  my-navbar mb-5 fixed-top ">
     <router-link :to="{ name: 'home' }" class="navbar-brand">
       <img src="../assets/logo.png" class="brand" alt="logo">
     </router-link>
@@ -22,7 +22,7 @@
             Blog
           </router-link>
         </li>
-        <li class="nav-item mr-3">
+        <li class="nav-item ">
           <a href="../assets/Sophia-application.pdf" download role="button" class="btn btn-lg px-4 py-2 outline-btn color-blue">Resume</a> 
         </li>
       </ul>
@@ -59,7 +59,7 @@
     </div>
 
     
-    <span class="mr-5 hide-elem" onclick="openNav()">
+    <span class="mr-2 hide-elem" onclick="openNav()">
       <i class="fa fa-bars" style="color:#18A0FB; font-size:28px;"></i>
     </span>
 

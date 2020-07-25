@@ -99,6 +99,10 @@ small{
 	letter-spacing: 2px;
 }
 
+.hero-text-first{
+	margin-top: 15rem;
+}
+
 .heading-smaller{
 	font-size: 3.7rem;	
 	font-weight: bold;
@@ -155,27 +159,27 @@ small{
 
 @media only screen and (max-width: 600px) {
 	.heading{
-		font-size: 3.5rem;	
+		font-size: 2.5rem;	
 		font-weight: bold;
 		letter-spacing: 2px;
 		font-family: 'Montserrat';
 	}
 	
 	.sub-heading{
-		font-size: 2.5rem;	
+		font-size: 1.7rem;	
 		font-weight: bold;
 		letter-spacing: 2px;
 	}
 
 	.heading-smaller{
-		font-size: 3.3rem;	
+		font-size: 2.5rem;	
 		font-weight: bold;
 		letter-spacing: 2px;
 		font-family: 'Montserrat';
 	}
 	
 	.sub-heading-smaller{
-		font-size: 2.3rem;	
+		font-size: 1.7rem;	
 		font-weight: bold;
 		letter-spacing: 2px;
 	}
@@ -202,10 +206,9 @@ small{
 		right: 35px;
 		
 	}
-
-	.hero-text{
-		margin-top: 5.0rem;
-	}	
+	.hero-text-first{
+		margin-top: 12.0rem;
+	}
 }
 
 

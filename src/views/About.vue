@@ -1,15 +1,15 @@
 <template>
   <div>
 
-    <div class="row w-100 p-3 hero-text text-center">
+    <div class="row w-100  hero-text-first text-center">
       <div class="col-12 "> 
         <h1 class="heading-smaller glegoo mt-3">Me at a Glance.</h1>
       </div>
     </div>
 
-    <div class="row h-100  w-100 p-3 text-center mb-5"> 
+    <div class="row h-100  w-100 pl-3 text-center mb-5"> 
 
-        <div class="col-12 col-md-6  p-5 ">
+        <div class="col-12 col-md-6  p-2 p-md-5 ">
 
           <div >
             <h1 class="heading-smaller glegoo mt-3 ">
@@ -23,7 +23,7 @@
 
         </div>   
 
-        <div class="col-12 col-md-6 mt-5 mt-md-0  p-5">
+        <div class="col-12 col-md-6 mt-5 mt-md-0   p-2 p-md-5">
 
           <div >
             <h1 class="heading-smaller glegoo mt-3 ">

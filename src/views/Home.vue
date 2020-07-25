@@ -1,7 +1,7 @@
 <template>
-  <div class="row h-100  w-100 p-3">
+  <div class="row h-100  w-100 pl-3">
       <div class="col-12 col-md-6">
-        <div class="hero-text">
+        <div class="hero-text-first">
           <small class="color-blue glegoo mb-3 ml-2 typewrite " data-period="2000" 
                                 data-type='[ " Hi there I’m..." ]'>
                                         
