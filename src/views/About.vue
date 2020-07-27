@@ -16,7 +16,7 @@
               <i class="fa fa-cogs" aria-hidden="true"></i>
             </h1>
             <h1 class="sub-heading-smaller text-muted mt-1">Software Engineer</h1>
-            <h3 class="mt-5 text-muted">
+            <h3 class="mt-5 text-muted text-justify">
             I am a software developer based in Yola, Nigeria. I primarily do web development, but I dabble in machine learning too. Ocassionally I design flyers and user interfaces.
             </h3>
           </div>
@@ -30,7 +30,7 @@
               <i class="fa fa-fire" aria-hidden="true"></i>
             </h1>
             <h1 class="sub-heading-smaller text-muted mt-1">Leadership</h1>
-            <h3 class="mt-5 text-muted">
+            <h3 class="mt-5 text-muted text-justify">
             I am a software developer based in Yola, Nigeria. I primarily do web development, but I dabble in machine learning too. Ocassionally I design flyers and user interfaces.
             </h3>
             

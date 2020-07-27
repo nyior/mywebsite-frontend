@@ -27,7 +27,7 @@
             <div class="allround-shadow card row ml-1 mr-1 p-3 mt-5 mb-2 text-left">
 
               <div class="col-12 ">
-                <h3 class="text-muted">
+                <h3 class="text-muted text-justify">
                 I am a software developer based in Yola, Nigeria. I primarily do web development, but I dabble in machine learning too. Ocassionally I design flyers and user interfaces.
                 </h3>
               </div>

@@ -4,7 +4,7 @@
                 
       <h2> Summer Coding Bootcamp </h2>
                    
-      <h3 class="text-muted mt-4 mb-4">
+      <h3 class="text-muted mt-4 mb-4 text-justify">
         I am a software developer based in Yola, Nigeria. I primarily do web development, but I dabble in machine learning too. Ocassionally I design flyers and user interfaces.
       </h3>
                

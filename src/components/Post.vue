@@ -3,16 +3,8 @@
 <div class="col-12 col-md-3 card allround-shadow p-4 m-4">
 
 	<div class="row  mt-3">
-                  
-      <div class="col-4  text-left text-muted">
-
-          <small>
-			  Nyior Clement
-          </small>
-
-      </div>
-
-		  <div class="col-4  text-center text-muted">
+                
+		  <div class="col-6  text-left text-muted">
 
           <small>
 			  3 months ago
@@ -20,7 +12,7 @@
 
       </div>
 
-      <div class="col-4 ">
+      <div class="col-6">
         <h3 class="sub-heading-smaller text-muted">
           <i class="fa fa-share-alt float-right p-0 m-0" aria-hidden="true"></i>
         </h3>
@@ -30,7 +22,7 @@
                 
     <h2 class=" mt-4 "> Part I: Algorithms and Data Structures </h2>
                    
-    <h3 class="text-muted mt-4 mb-4">
+    <h3 class="text-muted text-justify mt-4 mb-4">
         I am a software developer based in Yola, Nigeria. I primarily do web development, but I dabble in machine learning too. Ocassionally I design flyers and user interfaces.
     </h3>
                
@@ -45,7 +37,7 @@
 
       </div>
 
-		  <div class="col-6  text-right">
+		  <div class="col-6  text-left">
 
         <small class="text-rd p-2">
 			   Data Structures
