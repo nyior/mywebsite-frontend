@@ -2,10 +2,10 @@
 
   <div>
 
-    <div class="row h-100  w-100 mt-5">
+    <div class="row mt-5">
 
         <div class="col-12 col-md-6 pr-3 my-auto">
-			<div>
+			      <div>
                 <h2> Project Bubbl</h2>
                 <ul class="list-inline">
                   
@@ -24,17 +24,15 @@
             </div>
 
             
-            <div class="allround-shadow card p-3 mt-5 mb-5 text-left">
-              
-              <h3 class="text-muted">
+            <div class="allround-shadow card row ml-1 mr-1 p-3 mt-5 mb-2 text-left">
+
+              <div class="col-12 ">
+                <h3 class="text-muted">
                 I am a software developer based in Yola, Nigeria. I primarily do web development, but I dabble in machine learning too. Ocassionally I design flyers and user interfaces.
-              </h3>
-
-            </div>
-
-            <div class="row w-100 mt-3">
+                </h3>
+              </div>
               
-              <div class="col-12 text-left text-muted">
+              <div class="col-12 text-left mt-4 text-muted">
 
                 <small>
                   <ul class="list-inline">
@@ -54,16 +52,19 @@
 
               </div>
 
+
             </div>
 
-          </div>   
+        </div>   
 
-          <div class="col-12 col-md-6 mt-5 image-overlay">
+        <div class="col-12 col-md-6 mt-5 image-overlay">
             <img src="../assets/bubbl.png" alt="Bubbl User Interface" class="img-fluid rounded float-right image-with-zindex shadow my-auto">
-          </div> 
+        </div> 
 
     </div>
+
   </div>
+
 </template>
 
 <script>
