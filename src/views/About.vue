@@ -1,15 +1,15 @@
 <template>
   <div>
 
-    <div class="row w-100  hero-text-first text-center">
+    <div class="row  hero-text-first text-center">
       <div class="col-12 "> 
         <h1 class="heading-smaller glegoo mt-3">Me at a Glance.</h1>
       </div>
     </div>
 
-    <div class="row h-100  w-100 pl-3 text-center mb-5"> 
+    <div class="row text-center mb-5"> 
 
-        <div class="col-12 col-md-6  p-2 p-md-5 ">
+        <div class="col-12 col-md-6  p-md-5 ">
 
           <div >
             <h1 class="heading-smaller glegoo mt-3 ">
@@ -23,7 +23,7 @@
 
         </div>   
 
-        <div class="col-12 col-md-6 mt-5 mt-md-0   p-2 p-md-5">
+        <div class="col-12 col-md-6 mt-5 mt-md-0  p-md-5">
 
           <div >
             <h1 class="heading-smaller glegoo mt-3 ">
@@ -40,7 +40,7 @@
 
       </div>
 
-      <div class="row w-100 hero-text">
+      <div class="row hero-text">
         <div class="col-12 "> 
           <h1 class="heading-smaller glegoo mt-3">My Noteworthy Projects</h1>
 
@@ -54,19 +54,19 @@
         </div>
       </div>
 
-      <div class="row w-100 hero-text text-right">
+      <div class="row  hero-text text-right">
         <div class="col-12 "> 
 
           <h1 class="heading-smaller glegoo mt-3">My Noteworthy Initiatives</h1>
         </div>
       </div>
 
-      <div class="row h-100  w-100 d-flex justify-content-center text-center mt-5 mb-5">
+      <div class="row  d-flex justify-content-center text-center ml-2 mr-2 mt-5 mb-5">
         <Initiative/>
         <Initiative/>
       </div>
 
-      <div class="row w-100 hero-text text-center mb-5">
+      <div class="row  hero-text text-center mb-5">
         <div class="col-12 "> 
           <h1 class="heading-smaller glegoo mt-3">Get In Touch</h1>
           

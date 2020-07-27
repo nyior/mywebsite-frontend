@@ -1,8 +1,8 @@
 <template>
-  <div class="row h-100  w-100 pl-3">
+  <div class="row  pl-md-3 txt-center">
       <div class="col-12 col-md-6">
         <div class="hero-text-first">
-          <small class="color-blue glegoo mb-3 ml-2 typewrite " data-period="2000" 
+          <small class="color-blue glegoo mb-3 ml-1 typewrite " data-period="2000" 
                                 data-type='[ " Hi there I’m..." ]'>
                                         
             <span class="wrap"></span>
@@ -15,7 +15,11 @@
           </h3>
           <a href="mailto:cnyior27@gmail.com" role="button" class="btn btn-lg mt-5 px-4 py-2 email-btn color-blue">Email Me</a> 
         </div>
-      </div>    
+      </div>  
+
+      <div class="col-12 col-md-6 hero-text-second text-center ">
+        <img src="../assets/ill2.jpg" alt="software developer" class="img-fluid rounded float-md-right">
+      </div>  
   </div>
 </template>
 

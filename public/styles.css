@@ -61,7 +61,7 @@ a:hover {
 	height: 5rem;
 	letter-spacing: 1px;
 	background-color: #0A0A1E !important;
-	border: 2px solid #18A0FB;
+	border: 1px solid #18A0FB;
 	font-size: 2rem;
 	text-align: center;
 
@@ -100,6 +100,10 @@ small{
 }
 
 .hero-text-first{
+	margin-top: 18rem;
+}
+
+.hero-text-second{
 	margin-top: 15rem;
 }
 
@@ -161,8 +165,20 @@ small{
 	.heading{
 		font-size: 2.5rem;	
 		font-weight: bold;
-		letter-spacing: 2px;
+		letter-spacing: 3px;
 		font-family: 'Montserrat';
+	}
+
+	h3{
+		font-size: 1.5rem;
+	}
+
+	.txt-center{
+		text-align: center;
+	}
+
+	.hero-text-second{
+		margin-top: 7rem;
 	}
 	
 	.sub-heading{
@@ -174,7 +190,7 @@ small{
 	.heading-smaller{
 		font-size: 2.5rem;	
 		font-weight: bold;
-		letter-spacing: 2px;
+		letter-spacing: 3px;
 		font-family: 'Montserrat';
 	}
 	
@@ -206,6 +222,7 @@ small{
 		right: 35px;
 		
 	}
+
 	.hero-text-first{
 		margin-top: 12.0rem;
 	}

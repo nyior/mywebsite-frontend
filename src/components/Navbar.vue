@@ -18,7 +18,7 @@
           </router-link>
         </li>
         <li class="nav-item mt-2" >
-          <router-link :to="{ name: 'about' }">
+          <router-link :to="{ name: 'blog' }">
             Blog
           </router-link>
         </li>
@@ -42,8 +42,8 @@
             Home
           </router-link>
         </li>
-        <li class="mt-4 pt-2 " >
-          <router-link :to="{ name: 'about' }">
+        <li class="nav-item mt-2" >
+          <router-link :to="{ name: 'blog' }">
             Blog
           </router-link>
         </li>
