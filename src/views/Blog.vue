@@ -27,8 +27,8 @@
     </div>
 
     <div class="row  d-flex justify-content-center text-center ml-2 mr-2 mt-5 mb-5">
-        <Initiative/>
-        <Initiative/>
+        <Post/>
+        <Post/>
     </div>
 
     <div class="row  hero-text text-center mb-5">
@@ -51,15 +51,13 @@
 
 <script>
 
-import Project from "@/components/Project.vue";
-import Initiative from "@/components/Initiative.vue";
+import Post from "@/components/Post.vue";
 
 export default {
   name: "about",
 
   components: {
-    Project,
-    Initiative,
+    Post,
   },
 
   mounted: function() {

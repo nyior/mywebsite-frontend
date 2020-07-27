@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg py-3  my-navbar mb-5 fixed-top ">
+  <nav class="navbar navbar-expand-lg py-3  my-navbar mb-5 fixed-top " id="header">
     <router-link :to="{ name: 'home' }" class="navbar-brand">
       <img src="../assets/logo.png" class="brand" alt="logo">
     </router-link>
@@ -82,7 +82,8 @@
   font-size: 1.4rem;
   letter-spacing: 1px;
   color: white !important;
-  width: 100%
+  background-color: #0A0A1E;
+  
 }
 
 .navbar-brand {
@@ -94,5 +95,9 @@
 
 ul li {
   margin: 0rem 1.5rem;
+}
+
+#header.active {
+     box-shadow: 0 0 10px rgba(0,0,0,0.4);   
 }
 </style>

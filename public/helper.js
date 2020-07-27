@@ -65,3 +65,14 @@ function openNav() {
   function closeNav() {
 	document.getElementById("myNav").style.height = "0%";
   }
+
+
+$(window).scroll(function() {     
+    var scroll = $(window).scrollTop();
+    if (scroll > 0) {
+        $("#header").addClass("active");
+    }
+    else {
+        $("#header").removeClass("active");
+    }
+});
