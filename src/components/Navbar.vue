@@ -60,7 +60,8 @@
 
     
     <span class="mr-2 hide-elem" onclick="openNav()">
-      <i class="fa fa-bars" style="color:#18A0FB; font-size:28px;"></i>
+      <img src="../assets/nav.png" class="brand" alt="logo">
+  
     </span>
 
   </nav>

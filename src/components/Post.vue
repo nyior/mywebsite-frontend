@@ -22,7 +22,7 @@
                 
     <h2 class=" mt-4 "> Part I: Algorithms and Data Structures </h2>
                    
-    <h3 class="text-muted text-justify mt-4 mb-4">
+    <h3 class="text-muted text-left mt-4 mb-4">
         I am a software developer based in Yola, Nigeria. I primarily do web development, but I dabble in machine learning too. Ocassionally I design flyers and user interfaces.
     </h3>
                

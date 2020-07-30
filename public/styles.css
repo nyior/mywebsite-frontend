@@ -7,6 +7,7 @@ body {
 	font-size: 62.5%;
 	font-family: 'Quicksand', sans-serif;
 	letter-spacing: 1px;
+	word-spacing: normal;
 	margin: 0px;
     padding: 0px;
 	overflow-x: hidden!important;
@@ -89,15 +90,17 @@ small{
 }
 .heading{
 	font-size: 5.0rem;	
-	font-weight: bold;
 	letter-spacing: 2px;
 	font-family: 'Montserrat';
 }
 
 .sub-heading{
 	font-size: 4.0rem;	
-	font-weight: bold;
 	letter-spacing: 2px;
+}
+
+.hero-text {
+	margin-top: 10rem;
 }
 
 .hero-text-first{
@@ -110,14 +113,12 @@ small{
 
 .heading-smaller{
 	font-size: 3.7rem;	
-	font-weight: bold;
 	letter-spacing: 2px;
 	font-family: 'Montserrat';
 }
 
 .sub-heading-smaller{
 	font-size: 2.7rem;	
-	font-weight: bold;
 	letter-spacing: 2px;
 }
 
@@ -125,6 +126,7 @@ small{
 	width: 4.5rem;
 	height: 4.5rem;
 }
+
 .hide-elem{
 	visibility: hidden;
 }
@@ -158,14 +160,13 @@ small{
 	position: absolute;
 	top: 20px;
 	right: 45px;
-	font-size: 60px;
+	font-size: 40px;
 	color: #18A0FB;
   }
 
 @media only screen and (max-width: 600px) {
 	.heading{
 		font-size: 2.5rem;	
-		font-weight: bold;
 		letter-spacing: 3px;
 		font-family: 'Montserrat';
 	}
@@ -179,25 +180,22 @@ small{
 	}
 
 	.hero-text-second{
-		margin-top: 7rem;
+		margin-top: 4rem;
 	}
 	
 	.sub-heading{
 		font-size: 1.7rem;	
-		font-weight: bold;
 		letter-spacing: 2px;
 	}
 
 	.heading-smaller{
-		font-size: 2.5rem;	
-		font-weight: bold;
+		font-size: 2.5rem;
 		letter-spacing: 3px;
 		font-family: 'Montserrat';
 	}
 	
 	.sub-heading-smaller{
 		font-size: 1.7rem;	
-		font-weight: bold;
 		letter-spacing: 2px;
 	}
 	body {
