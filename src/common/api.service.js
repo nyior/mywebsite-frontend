@@ -2,7 +2,7 @@ import { CSRF_TOKEN } from "./csrf_token.js";
 import axios from "axios";
 
 // http://127.0.0.1:8000/
-const API_URL = " http://mywebsite-backend.herokuapp.com/api/v1";
+const API_URL = "https://still-reef-45949.herokuapp.com/api/v1";
 
 function apiService(endpoint, method, data) {
   endpoint = `${API_URL}/${endpoint}`;
