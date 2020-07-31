@@ -1,0 +1,230 @@
+/* Login Page Styles*/
+@import url('https://fonts.googleapis.com/css2?family=Glegoo&family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+html,
+body {
+	font-size: 62.5%;
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: 1px;
+	word-spacing: normal;
+	margin: 0px;
+    padding: 0px;
+	overflow-x: hidden!important;
+	color: white !important;
+	background-color: #0A0A1E;
+	
+}
+
+
+
+a {
+	text-decoration: none;
+	color: white !important;
+}
+.link-icon{
+	font-size: 1.6rem;
+}
+
+.allround-shadow{
+	background-color: #131339;
+}
+
+.image-with-zindex{
+	height: auto;
+	width: auto;
+	height: 80%;
+	width: 100%;
+	z-index: -1;
+	
+}
+
+a:hover {
+	text-decoration: none !important;
+	color: #18A0FB !important;
+}
+
+
+#social-icon {
+	margin-right: 0.2rem;
+}
+
+.outline-btn {
+	background-color: #0A0A1E !important;
+	border: 1px solid #18A0FB;
+	font-size: 1.4rem;
+	letter-spacing: 1px;
+	
+}
+
+.email-btn{
+	width: 15rem;
+	height: 5rem;
+	letter-spacing: 1px;
+	background-color: #0A0A1E !important;
+	border: 1px solid #18A0FB;
+	font-size: 2rem;
+	text-align: center;
+
+}
+
+.outline-btn-nav{
+	background-color: #131339 !important;
+	border: 1px solid #18A0FB;
+	font-size: 1.4rem;
+	letter-spacing: 1px;
+	
+}
+
+.color-blue{
+	color: #18A0FB !important;
+}
+
+small{
+	font-size: 1.0rem;
+	letter-spacing: 3px;
+}
+
+.glegoo{
+	font-family: 'Glegoo', serif;
+}
+.heading{
+	font-size: 5.0rem;	
+	letter-spacing: 2px;
+	font-family: 'Montserrat';
+}
+
+.sub-heading{
+	font-size: 4.0rem;	
+	letter-spacing: 2px;
+}
+
+.hero-text {
+	margin-top: 10rem;
+}
+
+.hero-text-first{
+	margin-top: 18rem;
+}
+
+.hero-text-second{
+	margin-top: 15rem;
+}
+
+.heading-smaller{
+	font-size: 3.7rem;	
+	letter-spacing: 2px;
+	font-family: 'Montserrat';
+}
+
+.sub-heading-smaller{
+	font-size: 2.7rem;	
+	letter-spacing: 2px;
+}
+
+.brand{
+	width: 4.5rem;
+	height: 4.5rem;
+}
+
+.hide-elem{
+	visibility: hidden;
+}
+
+.overlay {
+	/* Height & width depends on how you want to reveal the overlay (see JS below) */   
+	height: 0%;
+	width: 100%;
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	right: 0;
+	top: 0;
+	background-color: rgb(0,0,0); /* Black fallback color */
+	background-color: #131339; 
+	overflow-x: hidden!important; /* Disable horizontal scroll */
+	overflow-y: hidden!important;
+	transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+	position: relative;
+	top: 25%; /* 25% from the top */
+	width: 100%; /* 100% width */
+	text-align: center; /* Centered text/links */
+	margin-top: 20px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+
+  .overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 40px;
+	color: #18A0FB;
+  }
+
+@media only screen and (max-width: 600px) {
+	.heading{
+		font-size: 2.5rem;	
+		letter-spacing: 3px;
+		font-family: 'Montserrat';
+	}
+
+	h3{
+		font-size: 1.5rem;
+	}
+
+	.txt-center{
+		text-align: center;
+	}
+
+	.hero-text-second{
+		margin-top: 4rem;
+	}
+	
+	.sub-heading{
+		font-size: 1.7rem;	
+		letter-spacing: 2px;
+	}
+
+	.heading-smaller{
+		font-size: 2.5rem;
+		letter-spacing: 3px;
+		font-family: 'Montserrat';
+	}
+	
+	.sub-heading-smaller{
+		font-size: 1.7rem;	
+		letter-spacing: 2px;
+	}
+	body {
+		font-size: 62.5%;
+		font-family: 'Quicksand', sans-serif;
+		letter-spacing: 1px;
+		margin: 0px;
+		padding: 0px;
+		overflow-x: hidden!important;
+		color: white !important;
+		background-color: #0A0A1E;
+		
+	}
+	.hide-elem{
+		visibility: visible;
+	}
+
+	.overlay a {font-size: 20px}
+
+	.overlay .closebtn {
+		
+		top: 15px;
+		right: 35px;
+		
+	}
+
+	.hero-text-first{
+		margin-top: 12.0rem;
+	}
+}
+
+
