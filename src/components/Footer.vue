@@ -2,7 +2,7 @@
 <div class="my-footer text-center">
     <div class="row text-muted">
 		<div class="col-12">
-			<p >Designed  and Implemented by Nyior Clement</p>
+			<p >Designed  and Implemented by Nyior Clement&#128525;</p>
 		</div>
 
     </div>

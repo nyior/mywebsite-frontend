@@ -3,12 +3,12 @@
       <div class="col-12 col-md-6">
         <div class="hero-text-first">
           <small class="color-blue glegoo mb-3 ml-1 typewrite " data-period="2000" 
-                                data-type='[ " Hi there I’m..." ]'>
+                                data-type='[ " Hi there I’m ..." ]'>
                                         
             <span class="wrap"></span>
             
           </small>
-          <h1 class="heading glegoo mt-3">Nyior Clement.</h1>
+          <h1 class="heading glegoo mt-3">Nyior Clement. </h1>
           <h1 class="sub-heading text-muted mt-3">Software Engineer | Designer</h1>
           <h3 class="mt-5 text-muted text-justify">
            I am a software developer based in Yola, Nigeria. I primarily do web development, but I dabble in machine learning too. Ocassionally I design flyers and user interfaces.

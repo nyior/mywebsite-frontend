@@ -19,7 +19,7 @@
             
           </div>
 
-          <div class="mt-5 text-muted text-left">
+          <div class="mt-5 text-muted text-justify">
             <h3 >
             I am a software developer based in Yola, Nigeria. I primarily do web development, but I dabble in machine learning too. Ocassionally I design flyers and user interfaces.
             </h3>
@@ -36,7 +36,7 @@
             <h1 class="sub-heading-smaller text-muted mt-1">Leadership</h1>
           </div>
 
-          <div class="mt-5 text-muted text-left">
+          <div class="mt-5 text-muted text-justify">
             <h3 >
             I am a software developer based in Yola, Nigeria. I primarily do web development, but I dabble in machine learning too. Ocassionally I design flyers and user interfaces.
             </h3>
@@ -67,8 +67,10 @@
         </div>
       </div>
 
-      <div class="row  d-flex justify-content-center  ml-2 mr-2 mt-5 mb-5" v-for="initiative in initiatives" :key="initiative.id">
-        <Initiative :initiative_object="initiative" />
+      <div class="row px-4 d-flex justify-content-center  mt-5 mb-5" >
+        <div class="col-12 col-md-3 card allround-shadow p-4 m-4" v-for="initiative in initiatives" :key="initiative.id">
+          <Initiative :initiative_object="initiative" />
+        </div>
       </div>
 
       <div class="row  hero-text text-center mb-5">

@@ -1,13 +1,13 @@
 <template>
 
-<div class="col-12 col-md-3 card allround-shadow p-4 m-4">
+<div >
 
-	<div class="row  mt-3">
+	  <div class="row  mt-3">
                 
 		  <div class="col-6  text-left text-muted">
 
           <small>
-			  3 months ago
+			    {{ post.duration }}
           </small>
 
       </div>
@@ -20,27 +20,19 @@
 
     </div>
                 
-    <h2 class=" mt-4 "> Part I: Algorithms and Data Structures </h2>
+    <h2 class=" mt-4 "> {{ post.title }}</h2>
                    
     <h3 class="text-muted text-left mt-4 mb-4">
-        I am a software developer based in Yola, Nigeria. I primarily do web development, but I dabble in machine learning too. Ocassionally I design flyers and user interfaces.
+        {{ post.description }}
     </h3>
                
 
     <div class="row mt-3">
                   
-      <div class="col-6  text-left">
+      <div class="col-12  text-left" v-for="keyword in post.keywords" :key="keyword.id">
 
-        <small class="text-gr p-2">
+        <small class="text-gr p-2 mr-5">
 			    Algorithms
-        </small>
-
-      </div>
-
-		  <div class="col-6  text-left">
-
-        <small class="text-rd p-2">
-			   Data Structures
         </small>
 
       </div>
@@ -55,6 +47,19 @@
 
 export default {
   name: "Blog-Post",
+
+  props: {
+    post_object: {
+      type: Object,
+      required: true
+    }
+  },
+
+  data() {
+    return {
+      post: this.post_object,
+    };
+  },
 
 };
 

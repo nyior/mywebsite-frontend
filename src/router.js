@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
 import Blog from "./views/Blog.vue";
+import SeriesDetail from "./views/SeriesDetail.vue"
 
 Vue.use(Router);
 
@@ -20,6 +21,14 @@ export default new Router({
       name: "blog",
       component: Blog
     },
+
+    {
+      path: "/series_detail/:slug",
+      name: "series_detail",
+      component: SeriesDetail,
+      props: true
+    },
+
 
     {
       path: "/about",

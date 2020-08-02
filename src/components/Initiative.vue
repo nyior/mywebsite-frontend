@@ -1,15 +1,19 @@
 <template>
 
-  <div class="col-12 col-md-3 card allround-shadow p-4 m-4">
-                
-      <h2> {{ initiative.title }} </h2>
-                   
-      <h3 class="text-muted mt-4 mb-4 text-left">
-        {{ initiative.description }} 
-      </h3>
+  <div>
+      <div class="row w-100 mt-4"> 
+        <div class="col-12 ml-auto ">
+                 
+            <h2 class="text-left"> {{ initiative.title }} </h2>
+                        
+            <h3 class="text-muted text-justify mt-4 mb-4">
+              {{ initiative.description }} 
+            </h3>
+        </div>
+      </div>
                
 
-      <div class="row w-100 mt-3">
+      <div class="row w-100 ">
                   
         <div class="col-12 ml-auto text-left text-muted">
 

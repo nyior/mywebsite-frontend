@@ -9,14 +9,14 @@
                 <h2> {{ project.title }} </h2>
                 <ul class="list-inline">
                   
-                  <li class="list-inline-item mr-5 mt-2" >
-                    <a href="project.live_url">
-                      <i class="fa fa-twitter link-icon"></i>
+                  <li class="list-inline-item mr-5 ml-1 mt-2" v-if="project.live_url != null">
+                    <a :href="project.live_url">
+                      <i class="fa fa-external-link link-icon" aria-hidden="true"></i>
                     </a>
                   </li>
 
-                  <li class="list-inline-item m-0 p-0">
-                    <a href="project.github_url">
+                  <li class="list-inline-item ml-1 p-0" v-if="project.github_url != null">
+                    <a :href="project.github_url">
                       <i class="fa fa-github link-icon"></i>
                     </a>
                   </li>
@@ -27,7 +27,7 @@
             <div class="allround-shadow card row ml-1 mr-1 p-3 mt-5 mb-2 text-left">
 
               <div class="col-12 ">
-                <h3 class="text-muted text-left">
+                <h3 class="text-muted text-justify">
                   {{ project.description }}
                 </h3>
               </div>
@@ -51,7 +51,7 @@
         </div>   
 
         <div class="col-12 col-md-6 mt-5 image-overlay">
-            <img src="project.project_image" alt="Bubbl User Interface" class="img-fluid rounded float-right image-with-zindex shadow my-auto">
+            <img :src="project.project_image" alt="Bubbl User Interface" class="img-fluid rounded float-right image-with-zindex shadow my-auto">
         </div> 
 
     </div>
