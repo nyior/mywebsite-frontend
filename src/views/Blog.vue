@@ -24,14 +24,12 @@
     
 
     <div class="row  hero-text text-center  mb-5">
-        <div class="col-12 "> 
-
-          <h1 class="heading-smaller glegoo ">writing Series</h1>
-        </div>
-
+      <div class="col-12 "> 
+        <h1 class="heading-smaller glegoo ">writing Series</h1>
+      </div>
     </div>
 
-    <div class="row px-4 d-flex justify-content-center text-center  mt-5 mb-5" >
+    <div class="row d-flex justify-content-center text-center  m-4" >
 
       <div class="col-12 col-md-3 card allround-shadow p-4 m-4" v-for="post in series" :key="post.id">
         <router-link :to="{ name: 'series_detail', params: { slug: post.slug} }">
@@ -41,10 +39,10 @@
 
     </div>
 
-    <div class="row  hero-text text-center mb-5">
+    <div class="row  hero-text text-center m-5">
 
         <div class="col-12 "> 
-          <h1 class="heading-smaller glegoo mt-3">Get In Touch</h1>
+          <h1 class="heading-smaller glegoo mt-5">Get In Touch</h1>
           
           <div class="mt-5">
 

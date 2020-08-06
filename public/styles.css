@@ -50,7 +50,7 @@ a {
 
 a:hover {
 	text-decoration: none !important;
-	color: #18A0FB !important;
+	/* color: #18A0FB !important; */
 }
 
 
@@ -142,7 +142,6 @@ small{
 }
 
 .overlay {
-	/* Height & width depends on how you want to reveal the overlay (see JS below) */   
 	height: 0%;
 	width: 100%;
 	position: fixed; /* Stay in place */
@@ -235,6 +234,20 @@ small{
 	.hero-text-first{
 		margin-top: 17rem;
 	}
+}
+
+
+@media only screen and (min-width: 600px) {
+	.img-home{
+		width: 40rem;	
+		height: 40rem;
+	}
+
+	.project-image{
+		width: 70rem;	
+		height: 42.5rem;	
+	}
+
 }
 
 

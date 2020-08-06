@@ -18,7 +18,7 @@
       </div>  
 
       <div class="col-12 col-md-6 hero-text-second text-center px-5">
-        <img src="../assets/web-developer.png" alt="software developer" class="img-fluid rounded float-md-right">
+        <img src="../assets/web-developer.png" alt="software developer" class="img-fluid rounded float-md-right img-home">
       </div>  
   </div>
 </template>

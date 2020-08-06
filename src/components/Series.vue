@@ -2,7 +2,7 @@
 
 <div >
 
-	<div class="row  mt-4">
+	<div class="row  m-2">
                 
 		    <div class="col-12  text-left text-muted mr-auto">
 
@@ -12,14 +12,9 @@
 
       	</div>
 
-      	<!-- <div class="col-6">
-
-
-      	</div> -->
-
   </div>
 
-	<div class="row mt-4 ">
+	<div class="row m-2 ">
 		<div class="col-12  ">
                 
 			<h2  class="text-left"> {{ series.title }}</h2>
@@ -34,7 +29,7 @@
 	</div>
                
 
-    <div class="row mt-4">
+    <div class="row m-2">
                   
       <div class="col-12  text-left">
 
@@ -81,8 +76,8 @@ export default {
 
 .text-gr{
 	font-style: italic;
-  background-color: #10ba8f;
-  border: 0.1rem solid #10ba8f;
+  background-color: #0d6b53;
+  border: 0.1rem solid #0d6b53;
   border-radius: 20rem; 
   margin: 0.5rem;
 }

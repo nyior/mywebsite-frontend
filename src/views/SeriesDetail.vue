@@ -47,10 +47,10 @@
         </h3>
     </div> 
 
-    <div class="row  hero-text text-center mb-5">
+    <div class="row  text-center m-5">
 
         <div class="col-12 "> 
-          <h1 class="heading-smaller glegoo mt-3">Get In Touch</h1>
+          <h1 class="heading-smaller glegoo mt-5">Get In Touch</h1>
           
           <div class="mt-5">
 

@@ -49,7 +49,7 @@
 
       <div class="row hero-text text-right ">
         <div class="col-12 "> 
-          <h1 class="heading-smaller glegoo mt-3 text-center">My Noteworthy Projects</h1>
+          <h1 class="heading-smaller glegoo mt-3 mb-5 text-center">My Noteworthy Projects</h1>
 
           <div class="mt-5 " v-for="project in projects" :key="project.id">
 
@@ -73,7 +73,7 @@
         </div>
       </div>
 
-      <div class="row  hero-text text-center m-4">
+      <div class="row  hero-text text-center m-5">
         <div class="col-12 "> 
           <h1 class="heading-smaller glegoo mt-5">Get In Touch</h1>
           

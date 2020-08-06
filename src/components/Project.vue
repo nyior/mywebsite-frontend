@@ -24,7 +24,7 @@
             </div>
 
             
-            <div class="allround-shadow p-4  card row ">
+            <div class="allround-shadow p-4 m-md-2 mb-2 mb-md-0 card row ">
 
               <div class="col-12 ">
                 <h3 class="text-muted text-justify">
@@ -50,11 +50,11 @@
 
         </div>   
 
-        <div class="  row mt-4">
-          <div class="col-12 col-md-6 image-overlay">
-              <img :src="project.project_image" alt="Bubbl User Interface" class="img-fluid rounded float-right image-with-zindex shadow">
-          </div>
-        </div> 
+        
+        <div class="col-12 col-md-6  p-2   card">
+              <img :src="project.project_image" alt="Bubbl User Interface" class="img-fluid rounded float-right project-image">
+        </div>
+        
 
     </div>
 
