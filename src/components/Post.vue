@@ -31,8 +31,8 @@
                   
       <div class="col-12  text-left" v-for="keyword in post.keywords" :key="keyword.id">
 
-        <small class="text-gr p-2 mr-5">
-			    Algorithms
+        <small class="text-rd p-2 mr-5">
+			   {{ keyword.word }}
         </small>
 
       </div>
