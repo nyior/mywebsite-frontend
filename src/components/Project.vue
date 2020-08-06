@@ -24,7 +24,7 @@
             </div>
 
             
-            <div class="allround-shadow p-4 m-md-2 mb-2 mb-md-0 card row ">
+            <div class="allround-shadow p-2 m-md-2 mb-2 mb-md-0 card row ">
 
               <div class="col-12 ">
                 <h3 class="text-muted text-justify">

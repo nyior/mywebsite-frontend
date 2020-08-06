@@ -6,7 +6,7 @@
       <div class="col-12"> 
 		    <h1 class="heading-smaller glegoo mt-3"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></h1>
         <h1 class="heading-smaller glegoo mt-3">Welcome to My Blog</h1>
-        <h1 class="sub-heading-smaller text-muted mt-2">Look Around</h1>
+        <h1 class="sub-heading-smaller text-muted mt-1">Look Around</h1>
 		
       </div>
 
@@ -14,7 +14,7 @@
           
         <h3 class="mt-5 mb-5 pb-5 text-muted text-justify">
                 I will be writing about Python, Django, and may be Vue.js.
-          I will also be writing about the books I read, about life and don't be surprise if you see me write about love too.
+          I will also be writing about the books I read, about life and don't be surprise if you see me write about some random stuff too.
         </h3>
         
       </div>
@@ -31,7 +31,7 @@
 
     <div class="row d-flex justify-content-center text-center  m-4" >
 
-      <div class="col-12 col-md-3 card allround-shadow p-4 m-4" v-for="post in series" :key="post.id">
+      <div class="col-12 col-md-3 card allround-shadow p-2 m-4" v-for="post in series" :key="post.id">
         <router-link :to="{ name: 'series_detail', params: { slug: post.slug} }">
           <Series :series_object="post"/>
         </router-link>

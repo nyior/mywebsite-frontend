@@ -35,12 +35,12 @@
     <div class="overlay text-center" id="myNav" onclick="closeNav()"> 
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <ul class="overlay-content navbar-nav text-center">
-        <li class="mt-4  pt-2">
+        <li class="">
           <router-link :to="{ name: 'home' }">
             Home
           </router-link>
         </li>
-        <li class="">
+        <li class="mt-4  pt-2">
           <router-link :to="{ name: 'about' }">
             About
           </router-link>

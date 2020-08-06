@@ -11,7 +11,9 @@
           <h1 class="heading glegoo mt-3">Nyior Clement. </h1>
           <h1 class="sub-heading text-muted mt-3">Software Engineer | Designer</h1>
           <h3 class="mt-5 text-muted text-justify">
-           I am a software developer based in Yola, Nigeria. I primarily do web development, but I dabble in machine learning too. Ocassionally I design flyers and user interfaces.
+
+           I am a software developer based in Jalingo, Taraba State, Nigeria. I primarily architect and build things for the web. Ocassionally, I design flyers and interfaces of the web applications I build.
+
           </h3>
           <a href="mailto:cnyior27@gmail.com" role="button" class="btn btn-lg mt-5 px-4 py-2 email-btn color-blue">Email Me</a> 
         </div>
