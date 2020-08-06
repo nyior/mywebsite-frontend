@@ -10,7 +10,7 @@
 			
 		</div>
 
-		 <small class = "text-muted text-left mt-5">great mind image</small>
+		 <small class = "text-muted text-left mt-5">internet image</small>
 		
       </div>
     
@@ -73,19 +73,19 @@
 		  <h1 class="text-muted">
 			<ul class="list-inline mt-4">
 					<li class="list-inline-item m-0 mr-5">
-					<router-link :to="{ name: 'about' }">
-						<i class="fa fa-linkedin share"></i>
-					</router-link>
+					
+						<i class="fa fa-whatsapp share" aria-hidden="true"></i>
+					
 					</li>
 					<li class="list-inline-item mr-5" >
-					<router-link :to="{ name: 'about' }">
+					
 						<i class="fa fa-twitter share"></i>
-					</router-link>
+					
 					</li>
 					<li class="list-inline-item mr-5 text-muted">
-					<router-link :to="{ name: 'about' }">
-						<i class="fa fa-github share"></i>
-					</router-link> 
+					
+						<i class="fa fa-telegram share" aria-hidden="true"></i>
+					
 					</li>
 				</ul>
 			</h1>

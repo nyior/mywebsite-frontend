@@ -51,7 +51,7 @@
           </router-link>
         </li>
         <li class="mt-4 pt-2">
-          <a href="../assets/Sophia-application.pdf" download role="button" class="btn btn-lg px-4 py-2 outline-btn-nav color-blue">Resume</a> 
+          <a href="../assets/Sophia-application.pdf" download="nyior-resume" role="button" class="btn btn-lg px-4 py-2 outline-btn-nav color-blue">Resume</a> 
         </li>
         <li class="mt-5 pt-5">
           <router-link :to="{ name: 'home' }" class="navbar-brand">

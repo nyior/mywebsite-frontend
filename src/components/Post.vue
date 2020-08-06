@@ -27,13 +27,18 @@
     </h3>
                
 
-    <div class="row mt-3">
+    <div class="row mt-5">
                   
-      <div class="col-12  text-left" v-for="keyword in post.keywords" :key="keyword.id">
+      <div class="col-12  text-left">
 
-        <small class="text-rd p-2 mr-5">
-			   {{ keyword.word }}
-        </small>
+        <ul class="list-inline">
+          <li class="list-inline-item"  v-for="keyword in post_object.keywords" :key="keyword.id">
+            <small class="text-rd p-2 mr-2">
+            {{ keyword.word }}
+            </small>
+          </li>
+
+        </ul> 
 
       </div>
 

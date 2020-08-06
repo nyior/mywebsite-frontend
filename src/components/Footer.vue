@@ -11,19 +11,19 @@
 		<div class="col-12 ">
 			<ul class="list-inline">
 				<li class="list-inline-item m-0 mr-3">
-				<router-link :to="{ name: 'about' }">
-					<i class="fa fa-linkedin link-icon"></i>
-				</router-link>
+					<a href="https://www.linkedin.com/in/nyior-clement-252972146/">
+						<i class="fa fa-linkedin link-icon"></i>
+					</a>
 				</li>
 				<li class="list-inline-item mr-3" >
-				<router-link :to="{ name: 'about' }">
-					<i class="fa fa-twitter link-icon"></i>
-				</router-link>
+					<a href="https://twitter.com/nyior_clement">
+						<i class="fa fa-twitter link-icon"></i>
+					</a>
 				</li>
 				<li class="list-inline-item">
-				<router-link :to="{ name: 'about' }">
+					<a href="https://github.com/Nyior/">
 					<i class="fa fa-github link-icon"></i>
-				</router-link> 
+					</a>
 				</li>
 			</ul>
 		</div>
