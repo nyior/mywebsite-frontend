@@ -1,5 +1,5 @@
 <template>
-  <div class="row  pl-md-3 txt-center">
+  <div class="row  px-5 txt-center">
       <div class="col-12 col-md-6">
         <div class="hero-text-first">
           <small class="color-blue glegoo mb-3 ml-1 typewrite " data-period="2000" 
@@ -17,8 +17,8 @@
         </div>
       </div>  
 
-      <div class="col-12 col-md-6 hero-text-second text-center ">
-        <img src="../assets/ill2.jpg" alt="software developer" class="img-fluid rounded float-md-right">
+      <div class="col-12 col-md-6 hero-text-second text-center px-5">
+        <img src="../assets/web-developer.png" alt="software developer" class="img-fluid rounded float-md-right">
       </div>  
   </div>
 </template>

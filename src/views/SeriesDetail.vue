@@ -6,13 +6,13 @@
       <div class="col-12"> 
 		    <h1 class="heading-smaller glegoo mt-3"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></h1>
         <h1 class="heading-smaller glegoo mt-3">{{ series.title }}</h1>
-        <h1 class="heading-smaller glegoo mt-5 text-muted">Started: {{ series.duration }} ago</h1>
+       <h1 class="sub-heading-smaller text-muted mt-2">Started: {{ series.duration }} ago</h1>
 		
       </div>
 
       <div class="col-10 col-md-6 "> 
           
-        <h3 class="mt-5 mb-5 pb-5 text-muted text-left">
+        <h3 class="mt-5 mb-5 pb-5 text-muted text-justify">
                 {{ series.description }}
         </h3>
         
@@ -33,7 +33,9 @@
     <div class="row px-4 d-flex justify-content-center text-center  mt-5 mb-5" v-if="series.posts.length > 0">
 
 		<div  class="col-12 col-md-3 card allround-shadow p-4 m-4" v-for="post in series.posts" :key="post.id">
-          <Post :post_object="post"/>
+			<router-link :to="{ name: 'post_detail', params: { slug: post.slug} }">
+				<Post :post_object="post"/>
+			</router-link>
       	</div>
 	  
 

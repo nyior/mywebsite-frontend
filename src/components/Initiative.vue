@@ -1,19 +1,19 @@
 <template>
 
   <div>
-      <div class="row w-100 mt-4"> 
+      <div class="row m-2"> 
         <div class="col-12 ml-auto ">
                  
-            <h2 class="text-left"> {{ initiative.title }} </h2>
+            <h2 class="text-left "> {{ initiative.title }} </h2>
                         
-            <h3 class="text-muted text-justify mt-4 mb-4">
+            <h3 class="text-muted text-justify mt-4">
               {{ initiative.description }} 
             </h3>
         </div>
       </div>
                
 
-      <div class="row w-100 ">
+      <div class="row m-2">
                   
         <div class="col-12 ml-auto text-left text-muted">
 

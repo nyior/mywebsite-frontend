@@ -7,7 +7,7 @@
       </div>
     </div>
 
-    <div class="row mt-5 mb-5"> 
+    <div class="row mt-5 mb-5 px-5"> 
 
         <div class="col-12 col-md-6  p-md-5 ">
 
@@ -19,7 +19,7 @@
             
           </div>
 
-          <div class="mt-5 text-muted text-justify">
+          <div class="mt-5 text-muted text-justify px-md-4">
             <h3 >
             I am a software developer based in Yola, Nigeria. I primarily do web development, but I dabble in machine learning too. Ocassionally I design flyers and user interfaces.
             </h3>
@@ -36,7 +36,7 @@
             <h1 class="sub-heading-smaller text-muted mt-1">Leadership</h1>
           </div>
 
-          <div class="mt-5 text-muted text-justify">
+          <div class="mt-5 text-muted text-justify px-md-4">
             <h3 >
             I am a software developer based in Yola, Nigeria. I primarily do web development, but I dabble in machine learning too. Ocassionally I design flyers and user interfaces.
             </h3>
@@ -47,9 +47,9 @@
 
       </div>
 
-      <div class="row hero-text">
+      <div class="row hero-text text-right ">
         <div class="col-12 "> 
-          <h1 class="heading-smaller glegoo mt-3">My Noteworthy Projects</h1>
+          <h1 class="heading-smaller glegoo mt-3 text-center">My Noteworthy Projects</h1>
 
           <div class="mt-5 " v-for="project in projects" :key="project.id">
 
@@ -60,22 +60,22 @@
         </div>
       </div>
 
-      <div class="row  hero-text text-right">
+      <div class="row  hero-text text-right ">
         <div class="col-12 "> 
 
-          <h1 class="heading-smaller glegoo mt-3">My Noteworthy Initiatives</h1>
+          <h1 class="heading-smaller glegoo mt-3 text-center">My Noteworthy Initiatives</h1>
         </div>
       </div>
 
-      <div class="row px-4 d-flex justify-content-center  mt-5 mb-5" >
-        <div class="col-12 col-md-3 card allround-shadow p-4 m-4" v-for="initiative in initiatives" :key="initiative.id">
+      <div class="row  d-flex justify-content-center  m-4" >
+        <div class="col-12 col-md-4 card allround-shadow p-4 m-4" v-for="initiative in initiatives" :key="initiative.id">
           <Initiative :initiative_object="initiative" />
         </div>
       </div>
 
-      <div class="row  hero-text text-center mb-5">
+      <div class="row  hero-text text-center m-4">
         <div class="col-12 "> 
-          <h1 class="heading-smaller glegoo mt-3">Get In Touch</h1>
+          <h1 class="heading-smaller glegoo mt-5">Get In Touch</h1>
           
           <div class="mt-5">
 

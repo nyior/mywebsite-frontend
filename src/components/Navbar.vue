@@ -7,16 +7,19 @@
     <div class="collapse navbar-collapse "> 
       
       <ul class="navbar-nav ml-auto ">
-        <li class="nav-item mt-2 mr-3">
-          <router-link :to="{ name: 'about' }">
-            About
-          </router-link>
-        </li>
+
         <li class="nav-item mt-2 mr-3">
           <router-link :to="{ name: 'home' }">
             Home
           </router-link>
         </li>
+        
+        <li class="nav-item mt-2 mr-3">
+          <router-link :to="{ name: 'about' }">
+            About
+          </router-link>
+        </li>
+        
         <li class="nav-item mt-2" >
           <router-link :to="{ name: 'blog' }">
             Blog

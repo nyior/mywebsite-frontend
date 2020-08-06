@@ -18,6 +18,10 @@ body {
 .justify-text{
 	word-spacing: 10rem;
 }
+.card-img-overlay {
+	background-color:black;
+	opacity: 0.4;
+}
 
 a {
 	text-decoration: none;
@@ -25,6 +29,10 @@ a {
 }
 .link-icon{
 	font-size: 1.6rem;
+}
+
+.share{
+	font-size: 2.0rem;
 }
 
 .allround-shadow{
@@ -182,7 +190,7 @@ small{
 	}
 
 	.hero-text-second{
-		margin-top: 20rem;
+		margin-top: 17rem;
 	}
 	
 	.sub-heading{
@@ -225,7 +233,7 @@ small{
 	}
 
 	.hero-text-first{
-		margin-top: 20.0rem;
+		margin-top: 17rem;
 	}
 }
 

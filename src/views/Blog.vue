@@ -6,7 +6,7 @@
       <div class="col-12"> 
 		    <h1 class="heading-smaller glegoo mt-3"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></h1>
         <h1 class="heading-smaller glegoo mt-3">Welcome to My Blog</h1>
-        <h1 class="heading-smaller glegoo mt-5 text-muted">Look Around</h1>
+        <h1 class="sub-heading-smaller text-muted mt-2">Look Around</h1>
 		
       </div>
 

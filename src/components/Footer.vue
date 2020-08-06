@@ -1,13 +1,13 @@
 <template>
 <div class="my-footer text-center">
-    <div class="row text-muted">
+    <div class="row text-muted m-4">
 		<div class="col-12">
 			<p >Designed  and Implemented by Nyior Clement&#128525;</p>
 		</div>
 
     </div>
 
-	 <div class="row mt-2  ">
+	 <div class="row m-2  ">
 		<div class="col-12 ">
 			<ul class="list-inline">
 				<li class="list-inline-item m-0 mr-3">

@@ -2,10 +2,10 @@
 
   <div>
 
-    <div class="row mt-5">
+    <div class="row m-4 ">
 
-        <div class="col-12 col-md-6 pr-3 my-auto">
-			      <div>
+        <div class="col-12 col-md-6 text-center">
+			      <div class=" p-2 m-2 ">
                 <h2> {{ project.title }} </h2>
                 <ul class="list-inline">
                   
@@ -24,7 +24,7 @@
             </div>
 
             
-            <div class="allround-shadow card row ml-1 mr-1 p-3 mt-5 mb-2 text-left">
+            <div class="allround-shadow p-4  card row ">
 
               <div class="col-12 ">
                 <h3 class="text-muted text-justify">
@@ -50,8 +50,10 @@
 
         </div>   
 
-        <div class="col-12 col-md-6 mt-5 image-overlay">
-            <img :src="project.project_image" alt="Bubbl User Interface" class="img-fluid rounded float-right image-with-zindex shadow my-auto">
+        <div class="  row mt-4">
+          <div class="col-12 col-md-6 image-overlay">
+              <img :src="project.project_image" alt="Bubbl User Interface" class="img-fluid rounded float-right image-with-zindex shadow">
+          </div>
         </div> 
 
     </div>
