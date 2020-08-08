@@ -3,7 +3,7 @@
       <div class="col-12 col-md-6">
         <div class="hero-text-first">
           <small class="color-blue glegoo mb-3 ml-1 typewrite " data-period="2000" 
-                                data-type='[ " Hi there I’m ..." ]'>
+                                data-type='[ " Hi there😊 I’m ..." ]'>
                                         
             <span class="wrap"></span>
             

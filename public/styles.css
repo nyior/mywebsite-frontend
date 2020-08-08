@@ -15,6 +15,10 @@ body {
 	
 }
 
+h3 {
+	line-height: 1.5;
+  }
+  
 .justify-text{
 	word-spacing: 10rem;
 }
@@ -121,6 +125,10 @@ small{
 	margin-top: 15rem;
 }
 
+.about-image{
+	margin-top: 12rem;
+}
+
 .heading-smaller{
 	font-size: 3.7rem;	
 	letter-spacing: 2px;
@@ -189,7 +197,14 @@ small{
 	}
 
 	.hero-text-second{
-		margin-top: 12rem;
+		margin-top: 5rem;
+	}
+	.about-image{
+		margin-top: 5rem;
+	}
+
+	.project-header{
+		margin-top: 3rem;
 	}
 	
 	.sub-heading{

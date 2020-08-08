@@ -13,8 +13,8 @@
       <div class="col-10 col-md-6 "> 
           
         <h3 class="mt-5 mb-5 pb-5 text-muted text-justify">
-                I will be writing about Python, Django, and may be Vue.js.
-          I will also be writing about the books I read, about life and don't be surprise if you see me write about some random stuff too.
+                I will be writing mostly about algorithms and data structures with Python, the evolution of web development(At some point I will center the conversation here around the django web framework).
+                I will also be writing about the books I read, about life and don't be surprise if you see me write about some random stuff too.
         </h3>
         
       </div>

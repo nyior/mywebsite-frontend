@@ -4,7 +4,7 @@
 
     <div class="row m-4 ">
 
-        <div class="col-12 col-md-6 text-center">
+        <div class="col-12 col-md-6 text-center project-header">
 			      <div class=" p-2 m-2 ">
                 <h2> {{ project.title }} </h2>
                 <ul class="list-inline">
