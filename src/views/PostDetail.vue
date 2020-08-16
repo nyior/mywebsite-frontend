@@ -48,7 +48,8 @@
       <div class="col-12 col-md-6 ml-md-auto mr-md-auto"> 
 
         <div class="card bg-dark text-white mb-3">
-          <img class="card-img" :src="article.header_image" alt="Card image">
+          <img class="card-img" src="../assets/my-website-media/internet.jpg" alt="Card image"
+          v-if="article.title.toLowerCase().includes('internet')">
           
         </div>
 
@@ -65,9 +66,7 @@
     <div class="row  mt-5 px-4 d-flex justify-content-center  text-left">
         <div class="col-12 col-md-6 ml-md-auto mr-md-auto"> 
            {{ article.content }}
-		   <h3 class=" text-muted ">
-               content coming soon.... stay tuned.
-        	</h3>
+		   
         </div>
     </div>
 

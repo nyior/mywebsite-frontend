@@ -52,7 +52,11 @@
 
         
         <div class="col-12 col-md-6  p-2   card">
-              <img :src="project.project_image" alt="Bubbl User Interface" class="img-fluid rounded float-right project-image">
+              <img src="../assets/my-website-media/bubbl.jpg" alt="Bubbl User Interface" class="img-fluid rounded float-right project-image"
+              v-if="project.title.toLowerCase().includes('bubbl')">
+
+              <img src="../assets/my-website-media/marche.png" alt="Marche User Interface" class="img-fluid rounded float-right project-image"
+              v-if="project.title.toLowerCase().includes('marche')">
         </div>
         
 
@@ -77,9 +81,9 @@ export default {
   data() {
     return {
       project: this.project_object,
+      
     };
-  },
-  
+  }
 };
 
 </script>

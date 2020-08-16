@@ -26,7 +26,7 @@
           </router-link>
         </li>
         <li class="nav-item ">
-          <a href="../assets/Sophia-application.pdf" download role="button" class="btn btn-lg px-4 py-2 outline-btn color-blue">Resume</a> 
+          <a href="<%= BASE_URL %>nyior.pdf"  download="nyior-resume"  role="button" class="btn btn-lg px-4 py-2 outline-btn color-blue" >Resume</a> 
         </li>
       </ul>
     </div>
@@ -51,7 +51,7 @@
           </router-link>
         </li>
         <li class="mt-4 pt-2">
-          <a href="../assets/Sophia-application.pdf" download="nyior-resume" role="button" class="btn btn-lg px-4 py-2 outline-btn-nav color-blue">Resume</a> 
+          <a href="../../public/nyior.pdf" download="nyior's resume" role="button" class="btn btn-lg px-4 py-2 outline-btn-nav color-blue">Resume</a> 
         </li>
         <li class="mt-5 pt-5">
           <router-link :to="{ name: 'home' }" class="navbar-brand">
@@ -75,6 +75,11 @@
   export default {
     name: "NavbarComponent",
 
+    data () {
+      return {
+      publicPath: process.env.BASE_URL
+      }
+    }
     
   };
 
