@@ -1,36 +1,41 @@
 <template>
   <div>
 
-    <div class="row px-4 d-flex justify-content-center  mb-5 hero-text">
+  <div class="row d-flex justify-content-center px-4 mb-5 hero-text">
 
-      <div class="col-12 col-md-6 ml-md-auto mr-md-auto"> 
+    <div class="col-12 col-md-6 ml-md-auto mr-md-auto"> 
 
-		<div class="card bg-dark text-white mb-3">
-			<img class="card-img" :src="article.header_image" alt="Card image">
-			
-		</div>
-
-		 <small class = "text-muted text-left mt-5">internet image</small>
-		
+      <div class="card bg-dark text-white mb-3">
+        <img class="card-img" :src="article.header_image" alt="Card image">
+        
       </div>
+
+      <small class = "text-muted text-center mt-5">internet image</small>
+		
+    </div>
     
+  </div>
+
+	<div class="row   mt-5 px-4 d-flex justify-content-center  text-left">
+    <div class="col-12 col-md-6 ml-md-auto mr-md-auto"> 
+      <h1 class="heading-smaller glegoo">{{ article.title }}</h1>
+      <Socialshare
+          :url="article_url"
+          :caption="article.title"
+          :description="article.title"
+
+      />
     </div>
 
-	<div class="row   hero-text px-4 d-flex justify-content-center  text-left">
-        <div class="col-12 col-md-6 ml-md-auto mr-md-auto"> 
-          <h1 class="heading-smaller glegoo">{{ article.title }}</h1>
-		  <small class = "text-muted">{{ article.duration }} ago</small>
-		  
-        </div>
-    </div>
+  </div>
 
-	<div class="row   mt-5 px-4 d-flex justify-content-center  ">
+	<div class="row  px-4 d-flex justify-content-center  ">
         <div class="col-12 col-md-6 ml-md-auto mr-md-auto">
 			<div class="row   mt-5  d-flex justify-content-center"> 
 				<div class="col-6 text-left">
 					<article class = "media content-section mb-2 mt-2">
 				
-						<img class="rounded-circle mr-4" style="height: 50px; width: 50px"
+						<img class="rounded-circle mr-4" style="height: 60px; width: 60px"
 							src = "../assets/me.png">
 						
 						<div class = "media-body mt-2 mb-2 pt-2">
@@ -44,10 +49,8 @@
 					</article>
 				</div>
 
-				<div class="col-6 py-3">
-					<h3 class="sub-heading-smaller text-muted">
-					<i class="fa fa-share-alt float-right " aria-hidden="true"></i>
-					</h3>
+				<div class="col-6 py-3 text-right mt-2 p-4">
+					<small class = "text-muted ">{{ article.duration }} ago</small>
 				</div>
 			</div>
  
@@ -69,26 +72,15 @@
 
         <div class="col-12 col-md-6 ml-md-auto mr-md-auto "> 
           <h1 class="heading-smaller glegoo mt-3 text-muted">Loved this article ? Share with your friends on: </h1>
+
           
-		  <h1 class="text-muted">
-			<ul class="list-inline mt-4">
-					<li class="list-inline-item m-0 mr-5">
-					
-						<i class="fa fa-whatsapp share" aria-hidden="true"></i>
-					
-					</li>
-					<li class="list-inline-item mr-5" >
-					
-						<i class="fa fa-twitter share"></i>
-					
-					</li>
-					<li class="list-inline-item mr-5 text-muted">
-					
-						<i class="fa fa-telegram share" aria-hidden="true"></i>
-					
-					</li>
-				</ul>
-			</h1>
+          <Socialshare
+          :url="article_url"
+          :caption="article.title"
+          :description="article.title"
+
+          />
+          
         </div>
     </div>
           
@@ -98,7 +90,8 @@
 <script>
 
 import { apiService } from "../common/api.service.js";
-
+import { APP_BASE_URL } from "../common/api.service.js";
+import Socialshare from "@/components/Socialshare.vue";
 
 export default {
   name: "article",
@@ -106,12 +99,17 @@ export default {
   data() {
     return {
       article: null,
+      article_url: null,
+      article_description: null,
       
     };
   },
 
+  components: {
+    Socialshare,
+  },
 
-   props: {
+  props: {
     slug: {
       type: String,
       required: true
@@ -122,11 +120,16 @@ export default {
 
   methods: {
     getSeries() {
-      let article_url = `article/${ this.slug }`;
+      let get_article_url = `article/${ this.slug }`;
 
-      apiService(article_url, "GET").then(data => {
+      apiService(get_article_url, "GET").then(data => {
 
-		this.article=data;
+        this.article=data;
+        this.article_url = APP_BASE_URL + this.$route.path
+
+        if (this.article.content){
+          this.article_description = this.article.content.slice(0, 100)
+        }
 		
       });
     }
