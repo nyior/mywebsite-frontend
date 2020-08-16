@@ -36,7 +36,7 @@
 				</div>
 
 				<div class="col-6 py-3 text-right mt-2 p-4">
-					<small class = "text-muted ">{{ article.duration }} ago</small>
+					
 				</div>
 			</div>
  
@@ -53,7 +53,7 @@
           
         </div>
 
-        <small class = "text-muted text-center mt-5">internet image</small>
+        <small class = "text-muted text-center mt-5">{{ article.duration }} ago</small>
       
       </div>
       
@@ -64,8 +64,7 @@
     
 
     <div class="row  mt-5 px-4 d-flex justify-content-center  text-left">
-        <div class="col-12 col-md-6 ml-md-auto mr-md-auto"> 
-           {{ article.content }}
+        <div class="col-12 col-md-6 ml-md-auto mr-md-auto text-muted" v-html="article.content"> 
 		   
         </div>
     </div>
