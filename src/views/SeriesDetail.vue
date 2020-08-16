@@ -32,7 +32,7 @@
 
     <div class="row px-4 d-flex justify-content-center text-center  mt-5 mb-5" v-if="series.posts.length > 0">
 
-		<div  class="col-12 col-md-3 card allround-shadow p-4 m-4" v-for="post in series.posts" :key="post.id">
+		<div  class="col-12 col-md-3 card allround-shadow p-4" v-for="post in series.posts" :key="post.id">
 			<router-link :to="{ name: 'post_detail', params: { slug: post.slug} }">
 				<Post :post_object="post"/>
 			</router-link>

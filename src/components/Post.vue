@@ -12,10 +12,10 @@
 
       </div>
 
-      <div class="col-6">
-        <h3 class="sub-heading-smaller text-muted">
-          <i class="fa fa-share-alt float-right p-0 m-0" aria-hidden="true"></i>
-        </h3>
+      <div class="col-6 text-right text-muted">
+        <small>
+			    Nyior Clement
+        </small>
       </div>
 
     </div>

@@ -1,35 +1,21 @@
 <template>
   <div>
 
-  <div class="row d-flex justify-content-center px-4 mb-5 hero-text">
+    <div class="row   hero-text px-4 d-flex justify-content-center  text-left">
 
-    <div class="col-12 col-md-6 ml-md-auto mr-md-auto"> 
+      <div class="col-12 col-md-6 ml-md-auto mr-md-auto"> 
+        <h1 class="heading-smaller glegoo">{{ article.title }}</h1>
+        <Socialshare
+            :url="article_url"
+            :caption="article.title"
+            :description="article.title"
 
-      <div class="card bg-dark text-white mb-3">
-        <img class="card-img" :src="article.header_image" alt="Card image">
-        
+        />
       </div>
 
-      <small class = "text-muted text-center mt-5">internet image</small>
-		
-    </div>
-    
-  </div>
-
-	<div class="row   mt-5 px-4 d-flex justify-content-center  text-left">
-    <div class="col-12 col-md-6 ml-md-auto mr-md-auto"> 
-      <h1 class="heading-smaller glegoo">{{ article.title }}</h1>
-      <Socialshare
-          :url="article_url"
-          :caption="article.title"
-          :description="article.title"
-
-      />
     </div>
 
-  </div>
-
-	<div class="row  px-4 d-flex justify-content-center  ">
+    <div class="row  px-4 d-flex justify-content-center  ">
         <div class="col-12 col-md-6 ml-md-auto mr-md-auto">
 			<div class="row   mt-5  d-flex justify-content-center"> 
 				<div class="col-6 text-left">
@@ -56,6 +42,23 @@
  
         </div>
     </div>
+
+    <div class="row d-flex justify-content-center px-4 mb-5 mt-5">
+
+      <div class="col-12 col-md-6 ml-md-auto mr-md-auto"> 
+
+        <div class="card bg-dark text-white mb-3">
+          <img class="card-img" :src="article.header_image" alt="Card image">
+          
+        </div>
+
+        <small class = "text-muted text-center mt-5">internet image</small>
+      
+      </div>
+      
+    </div>
+
+	
 
     
 
