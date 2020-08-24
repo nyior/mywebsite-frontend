@@ -66,7 +66,7 @@
 
       </div>
 
-    <div class="row  hero-text text-center">
+    <div class="row  hero-text text-center  mb-5">
       <div class="col-12 "> 
         <h1 class="heading-smaller glegoo mt-3 ">My Noteworthy Projects</h1>
       </div>

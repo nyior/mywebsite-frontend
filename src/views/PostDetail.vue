@@ -24,7 +24,7 @@
 						<img class="rounded-circle mr-4" style="height: 60px; width: 60px"
 							src = "../assets/me.png">
 						
-						<div class = "media-body mt-2 mb-2 pt-2">
+						<div class = "media-body mt-3 mb-2 pt-3">
 							<div class = "article-meta-data  ">
 								<small class = "text-muted font-weight-bold">Nyior Clement</small>
 								
@@ -50,11 +50,14 @@
         <div class="card bg-dark text-white mb-3">
           <img class="card-img" src="../assets/my-website-media/internet.jpg" alt="Card image"
           v-if="article.title.toLowerCase().includes('internet')">
+
+          <img class="card-img" src="../assets/my-website-media/crude-software-engineer.png" alt="Card image"
+          v-if="article.title.toLowerCase().includes('crude software engineer')">
           
         </div>
 
-        <small class = "text-muted text-center mt-5">{{ article.duration }} ago</small>
-      
+        <small class = "text-muted text-center mt-5 ">{{ article.duration }} ago</small> 
+         <small class = "text-muted text-center float-right">{{ article.read_time }} mins read</small>
       </div>
       
     </div>
