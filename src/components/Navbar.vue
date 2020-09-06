@@ -1,4 +1,5 @@
 <template>
+
   <nav class="navbar navbar-expand-lg py-3  my-navbar mb-5 fixed-top " id="header">
     <router-link :to="{ name: 'home' }" class="navbar-brand">
       <img src="../assets/logo.png" class="brand" alt="logo">

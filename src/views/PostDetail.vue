@@ -53,6 +53,9 @@
 
           <img class="card-img" src="../assets/my-website-media/crude-software-engineer.png" alt="Card image"
           v-if="article.title.toLowerCase().includes('crude software engineer')">
+
+          <img class="card-img" src="../assets/my-website-media/crude-software-engineer.png" alt="Card image"
+          v-if="article.title.toLowerCase().includes('complexity')">
           
         </div>
 
