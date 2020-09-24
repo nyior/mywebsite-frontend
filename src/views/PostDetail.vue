@@ -56,6 +56,9 @@
 
           <img class="card-img" src="../assets/my-website-media/bigo.png" alt="Card image"
           v-if="article.title.toLowerCase().includes('complexity')">
+		  
+	  <img class="card-img" src="../assets/my-website-media/memory.png" alt="Card image"
+          v-if="article.title.toLowerCase().includes('memory')">
           
         </div>
 
@@ -68,16 +71,17 @@
 	
 
     
-
+    
     <div class="row  mt-5 px-4 d-flex justify-content-center  text-left">
         <div class="col-12 col-md-6 ml-md-auto mr-md-auto text-muted" v-html="article.content"> 
 		   
         </div>
     </div>
-
+   
     <div class="row  hero-text text-center ">
 
         <div class="col-12 col-md-6 ml-md-auto mr-md-auto "> 
+          
           <h1 class="heading-smaller glegoo mt-3 text-muted">Loved this article ? Share with your friends on: </h1>
 
           
@@ -152,6 +156,16 @@ export default {
 
 <style scoped>
 
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+  font-size: 14rem !important;
+  color: white !important;
+  opacity: 0.7;
+}
 
 </style>
 
