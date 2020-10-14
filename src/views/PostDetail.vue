@@ -57,8 +57,14 @@
           <img class="card-img" src="../assets/my-website-media/bigo.png" alt="Card image"
           v-if="article.title.toLowerCase().includes('complexity')">
 		  
-	  <img class="card-img" src="../assets/my-website-media/memory.png" alt="Card image"
+	        <img class="card-img" src="../assets/my-website-media/memory.png" alt="Card image"
           v-if="article.title.toLowerCase().includes('memory')">
+
+          <img class="card-img" src="../assets/my-website-media/memory.png" alt="Card image"
+          v-if="article.title.toLowerCase().includes('memory')">
+
+          <img class="card-img" src="../assets/my-website-media/recursion.png" alt="Card image"
+          v-if="article.title.toLowerCase().includes('recursion')">
           
         </div>
 
