@@ -2,8 +2,8 @@ import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
 import Blog from "./views/Blog.vue";
-import PostDetail from "./views/PostDetail.vue"
-import SeriesDetail from "./views/SeriesDetail.vue"
+import PostDetail from "./views/PostDetail.vue";
+import SeriesDetail from "./views/SeriesDetail.vue";
 
 Vue.use(Router);
 
@@ -36,7 +36,6 @@ export default new Router({
       component: PostDetail,
       props: true
     },
-
 
     {
       path: "/about",

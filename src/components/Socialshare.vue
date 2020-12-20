@@ -1,65 +1,58 @@
 <template>
-	<div>
-		
-		<h1 class="text-muted">
+  <div>
+    <h1 class="text-muted">
+      <social-sharing
+        :url="url"
+        :title="caption"
+        :description="description"
+        :quote="caption"
+        v-cloak
+        inline-template
+      >
+        <ul class="list-inline mt-4">
+          <li class="list-inline-item m-0 mr-4">
+            <network network="whatsapp">
+              <i class="fa fa-whatsapp share" aria-hidden="true"></i>
+            </network>
+          </li>
 
-			<social-sharing
-				:url="url"
-				:title="caption"
-				:description="description"
-				:quote="caption"
-				v-cloak
-				inline-template
-			>
+          <li class="list-inline-item mr-4">
+            <network network="facebook">
+              <i class="fa fa-facebook share" aria-hidden="true"></i>
+            </network>
+          </li>
 
-			<ul class="list-inline mt-4">
+          <li class="list-inline-item mr-4">
+            <network network="twitter">
+              <i class="fa fa-twitter share" aria-hidden="true"></i>
+            </network>
+          </li>
 
-				<li class="list-inline-item m-0 mr-4">
-					<network network="whatsapp">
-						<i class="fa fa-whatsapp share" aria-hidden="true"></i>	
-					</network>			
-				</li>
+          <li class="list-inline-item mr-4">
+            <network network="linkedin">
+              <i class="fa fa-linkedin share" aria-hidden="true"></i>
+            </network>
+          </li>
 
-				<li class="list-inline-item mr-4" >	
-					<network network="facebook">
-						<i class="fa fa-facebook share" aria-hidden="true"></i>	
-					</network>		
-				</li>
-
-				<li class="list-inline-item mr-4" >		
-					<network network="twitter">
-						<i class="fa fa-twitter share" aria-hidden="true"></i>	
-					</network>			
-				</li>
-
-				<li class="list-inline-item mr-4" >		
-					<network network="linkedin">
-						<i class="fa fa-linkedin share" aria-hidden="true"></i>	
-					</network>		
-				</li>
-
-				<li class="list-inline-item mr-4 text-muted">		
-					<network network="telegram">
-						<i class="fa fa-telegram share" aria-hidden="true"></i>	
-					</network>			
-				</li>
-			</ul>
-
-			</social-sharing>
-		</h1>
-		
-	</div>
+          <li class="list-inline-item mr-4 text-muted">
+            <network network="telegram">
+              <i class="fa fa-telegram share" aria-hidden="true"></i>
+            </network>
+          </li>
+        </ul>
+      </social-sharing>
+    </h1>
+  </div>
 </template>
 
 <script>
-
-import SocialSharing from 'vue-social-sharing';
+import SocialSharing from "vue-social-sharing";
 
 export default {
-  name: 'Socialshare',
+  name: "Socialshare",
 
   components: {
-    SocialSharing,
+    SocialSharing
   },
 
   props: {
@@ -90,25 +83,25 @@ export default {
       overiddenNetworks: {
         facebook: {
           sharer:
-            'https://www.facebook.com/sharer/sharer.php?u=@url&title=@title&description=@description&quote=@quote&hashtag=@hashtags',
-          type: 'popup'
+            "https://www.facebook.com/sharer/sharer.php?u=@url&title=@title&description=@description&quote=@quote&hashtag=@hashtags",
+          type: "popup"
         },
 
         linkedin: {
           sharer:
-            'https://www.linkedin.com/shareArticle?mini=true&url=@url&title=@title&summary=@description',
-          type: 'popup'
+            "https://www.linkedin.com/shareArticle?mini=true&url=@url&title=@title&summary=@description",
+          type: "popup"
         },
 
         telegram: {
-          sharer: 'https://t.me/share/url?url=@url&text=@description',
-          type: 'popup'
+          sharer: "https://t.me/share/url?url=@url&text=@description",
+          type: "popup"
         },
 
         whatsapp: {
-          sharer: 'https://api.whatsapp.com/send?text=@description%0D%0A@url',
-          type: 'popup',
-          action: 'share/whatsapp/share'
+          sharer: "https://api.whatsapp.com/send?text=@description%0D%0A@url",
+          type: "popup",
+          action: "share/whatsapp/share"
         }
       }
     };
@@ -116,21 +109,20 @@ export default {
 
   methods: {
     copyToClipboard(str) {
-      const el = document.createElement('textarea');
+      const el = document.createElement("textarea");
       el.value = str;
-      el.setAttribute('readonly', '');
-      el.style.position = 'absolute';
-      el.style.left = '-9999px';
+      el.setAttribute("readonly", "");
+      el.style.position = "absolute";
+      el.style.left = "-9999px";
       document.body.appendChild(el);
       el.select();
-      document.execCommand('copy');
+      document.execCommand("copy");
       document.body.removeChild(el);
 
-      this.$emit('link-copied');
+      this.$emit("link-copied");
     }
   }
 };
-
 </script>
 
 <style scoped>
