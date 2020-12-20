@@ -71,7 +71,7 @@
         />
 
         <img
-          src="../assets/my-website-media/play-learm.JPG"
+          src="../assets/my-website-media/pnl.jpg"
           alt="Play and learn interface"
           class="img-fluid rounded float-right project-image"
           v-if="project.title.toLowerCase().includes('pnl')"
