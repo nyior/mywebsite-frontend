@@ -70,12 +70,12 @@
           v-if="project.title.toLowerCase().includes('klinurl')"
         />
 
-        <img
+        <!-- <img
           src="../assets/my-website-media/pnl.jpg"
           alt="Play and learn interface"
           class="img-fluid rounded float-right project-image"
           v-if="project.title.toLowerCase().includes('pnl')"
-        />
+        /> -->
       </div>
     </div>
   </div>
