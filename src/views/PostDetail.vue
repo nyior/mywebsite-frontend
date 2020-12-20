@@ -49,15 +49,6 @@
           
           <img
             class="card-img"
-            src="../assets/my-website-media/ai-vs-ml-dl.png"
-            alt="Card image"
-            v-if="article.title.toLowerCase().includes(
-                'deep learning'
-                )"
-          />
-
-          <img
-            class="card-img"
             src="../assets/my-website-media/crude-software-engineer.png"
             alt="Card image"
             v-if="
@@ -92,6 +83,16 @@
             alt="Card image"
             v-if="article.title.toLowerCase().includes('recursion')"
           />
+
+          <img
+            class="card-img"
+            src="../assets/my-website-media/ai-vs-ml-dl.png"
+            alt="Card image"
+            v-if="article.title.toLowerCase().includes(
+                'deep learning'
+                )"
+          />
+
         </div>
 
         <small class="text-muted text-center mt-5 "

@@ -57,13 +57,6 @@
         />
 
         <img
-          src="../assets/my-website-media/play-learm.jpg"
-          alt="Play and learn interface"
-          class="img-fluid rounded float-right project-image"
-          v-if="project.title.toLowerCase().includes('pnl')"
-        />
-
-        <img
           src="../assets/my-website-media/marche.png"
           alt="Marche User Interface"
           class="img-fluid rounded float-right project-image"
@@ -75,6 +68,13 @@
           alt="klinurl cover"
           class="img-fluid rounded float-right project-image"
           v-if="project.title.toLowerCase().includes('klinurl')"
+        />
+
+        <img
+          src="../assets/my-website-media/play-learm.JPG"
+          alt="Play and learn interface"
+          class="img-fluid rounded float-right project-image"
+          v-if="project.title.toLowerCase().includes('pnl')"
         />
       </div>
     </div>
