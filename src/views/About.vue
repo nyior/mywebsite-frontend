@@ -1,52 +1,40 @@
 <template>
   <div>
-    <div class="row  hero-text-first text-center">
+    <div class="row  px-5 hero-text-first text-center">
       <div class="col-12 ">
         <h1 class="heading-smaller glegoo mt-3">Me at a Glance.</h1>
       </div>
     </div>
 
     <div class="row mt-5 mb-5 px-5">
-      <div class="col-12 col-md-6  p-md-5 ">
-        <div class="text-center">
-          <h1 class="heading-smaller glegoo mt-3 ">
-            <i class="fa fa-cogs" aria-hidden="true"></i>
-          </h1>
-          <h1 class="sub-heading-smaller text-muted mt-1">Software Engineer</h1>
-        </div>
+      <div class="col-12 col-md-4 ml-md-auto">
+        <img
+            src="../assets/nyior-2.jpg"
+            alt="software developer"
+            class="img-fluid rounded float-md-right nyior-image"
+        />
+      </div>
 
-        <div class="mt-5 text-muted text-justify px-md-4">
+      <div class="col-12 col-md-4 mr-md-auto">    
+        <div class="mt-5 text-muted text-justify">
           <h3>
-            I am passionate about using technology to solve real world problems.
-            For now, I build things that live on the web.
+            Oh, you are here too? Hello, Nyior Clement here.
+            I am passionate about using technology to solve problems.
+            For now, I build things that live on the web. I write mostly technical
+            articles, I dabble in design, and read a lot too.
             <br />
             <br />
-            I am currently pursuing a bachelor's degree in software engineering
-            at the American University of Nigeria, Yola, Nigeria(Aug. 2016 -
-            Dec. 2020).Thus, I have a strong academic background and an above
-            average understanding of the software development life cycle.
-            Because I strongly hold the opinion that every piece of software
-            should be a solution to a problem, I have and will continously seek
-            opportunities to develop software systems that make real impact.
+            
+            I'm super excited about building backend systems, but I make frontends
+            too when/if I need to. I'm obssessed with, and currently working hard
+            to improve my ability to write clean code and optimal algorithms.
             <br />
             <br />
             Some of the technologies I have worked with recently are: <br />
             Python, Javascript, Html5, Css3, Django, Django-rest, Vue.js,
-            Bootstrap4, Mysql and Git.
-            <br />
-            <br />
-            I have deployed to: <br />
-            Azure, Heroku, Netlify and Pythonaywhere.
+            Bootstrap4, Mysql, Git, Amazon S3, Heroku, Netlify and Pythonaywhere.
           </h3>
         </div>
-      </div>
-
-      <div class="col-12 col-md-6 about-image text-center px-5">
-        <img
-          src="../assets/web-developer.png"
-          alt="software developer"
-          class="img-fluid rounded float-md-right img-home"
-        />
       </div>
     </div>
 
@@ -77,10 +65,8 @@
     </div>
 
     <div class="row">
-      <div class="col-12 ">
-        <div class="" v-for="project in projects" :key="project.id">
+      <div class="col-12 col-md-6" v-for="project in projects" :key="project.id">
           <Project :project_object="project" />
-        </div>
       </div>
     </div>
 
@@ -173,4 +159,14 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.nyior-image{
+	margin-top: 8.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .nyior-image{
+	    margin-top: 3rem;
+    }
+}
+</style>

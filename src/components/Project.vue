@@ -1,10 +1,14 @@
 <template>
-  <div>
-    <div class="row m-4 ">
-      <div class="col-12 col-md-6 text-center project-header">
-        <div class=" p-2 m-2 ">
-          <h2>{{ project.title }}</h2>
+    <div class="allround-shadow p-2 card row m-3">
+        <div class="col-12 project-header">
+          
           <ul class="list-inline">
+            <li
+              class="list-inline-item mr-5 ml-1 mt-2"
+            >
+              <span>{{ project.title }}</span>
+            </li>
+
             <li
               class="list-inline-item mr-5 ml-1 mt-2"
               v-if="project.live_url != null"
@@ -25,14 +29,45 @@
           </ul>
         </div>
 
-        <div class="allround-shadow p-2 m-md-2 mb-2 mb-md-0 card row ">
-          <div class="col-12 ">
+        <div class="col-12 ">
+            <img
+            src="../assets/my-website-media/bubbl.jpg"
+            alt="Bubbl User Interface"
+            class="img-fluid rounded float-right project-image"
+            v-if="project.title.toLowerCase().includes('bubbl')"
+            />
+
+            <img
+            src="../assets/my-website-media/vendor.png"
+            alt="Marche User Interface"
+            class="img-fluid rounded float-right project-image"
+            v-if="project.title.toLowerCase().includes('aunvendor')"
+            />
+
+            <img
+            src="../assets/my-website-media/clipit.png"
+            alt="Clipit cover"
+            class="img-fluid rounded float-right project-image"
+            v-if="project.title.toLowerCase().includes('clipit')"
+            />
+
+            <img
+            src="../assets/my-website-media/pnl.png"
+            alt="Play and learn interface"
+            class="img-fluid rounded float-right project-image"
+            v-if="project.title.toLowerCase().includes('pnl')"
+            />
+        </div>
+
+        <div class="col-12 mt-3">
             <h3 class="text-muted text-justify">
               {{ project.description }}
             </h3>
-          </div>
+        </div>
 
-          <div class="col-12 text-left mt-4 text-muted">
+        <hr />
+
+        <div class="col-12 text-left mt-4 text-muted">
             <small>
               <ul class="list-inline">
                 <li
@@ -44,41 +79,9 @@
                 </li>
               </ul>
             </small>
-          </div>
         </div>
-      </div>
-
-      <div class="col-12 col-md-6  p-2   card">
-        <img
-          src="../assets/my-website-media/bubbl.jpg"
-          alt="Bubbl User Interface"
-          class="img-fluid rounded float-right project-image"
-          v-if="project.title.toLowerCase().includes('bubbl')"
-        />
-
-        <img
-          src="../assets/my-website-media/marche.png"
-          alt="Marche User Interface"
-          class="img-fluid rounded float-right project-image"
-          v-if="project.title.toLowerCase().includes('marche')"
-        />
-
-        <img
-          src="../assets/my-website-media/klinurl-cover.png"
-          alt="klinurl cover"
-          class="img-fluid rounded float-right project-image"
-          v-if="project.title.toLowerCase().includes('klinurl')"
-        />
-
-        <!-- <img
-          src="../assets/my-website-media/pnl.jpg"
-          alt="Play and learn interface"
-          class="img-fluid rounded float-right project-image"
-          v-if="project.title.toLowerCase().includes('pnl')"
-        /> -->
-      </div>
+       
     </div>
-  </div>
 </template>
 
 <script>
@@ -100,4 +103,21 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+img{
+    width: 635px;
+    height: 380px;
+}
+
+@media only screen and (max-width: 600px) {
+    img{
+        width: 330px;
+        height: 190px;
+    }
+}
+</style>

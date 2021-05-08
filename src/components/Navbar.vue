@@ -20,16 +20,11 @@
             About
           </router-link>
         </li>
-
-        <li class="nav-item mt-2">
-          <router-link :to="{ name: 'blog' }">
-            Blog
-          </router-link>
-        </li>
+        
         <li class="nav-item ">
           <a
-            href="<%= BASE_URL %>nyior.pdf"
-            download="nyior-resume"
+             href="https://www.notion.so/Resume-a8ef68e5435345c890348d1f9f44270b"
+            target="blank"
             role="button"
             class="btn btn-lg px-4 py-2 outline-btn color-blue"
             >Resume</a
@@ -53,15 +48,11 @@
             About
           </router-link>
         </li>
-        <li class="nav-item mt-4 pt-2">
-          <router-link :to="{ name: 'blog' }">
-            Blog
-          </router-link>
-        </li>
+
         <li class="mt-4 pt-2">
           <a
-            href="../../public/nyior.pdf"
-            download="nyior's resume"
+            href="https://www.notion.so/Resume-a8ef68e5435345c890348d1f9f44270b"
+            target="blank"
             role="button"
             class="btn btn-lg px-4 py-2 outline-btn-nav color-blue"
             >Resume</a

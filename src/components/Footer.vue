@@ -19,9 +19,14 @@
               <i class="fa fa-twitter link-icon"></i>
             </a>
           </li>
-          <li class="list-inline-item">
+          <li class="list-inline-item mr-3">
             <a href="https://github.com/Nyior/">
               <i class="fa fa-github link-icon"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://dev.to/nyior">
+                <i class="fa fa-dev" title="nyior's DEV Community Profile"></i>
             </a>
           </li>
         </ul>
