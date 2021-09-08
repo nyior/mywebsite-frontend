@@ -23,7 +23,7 @@
         
         <li class="nav-item ">
           <a
-             href="https://www.notion.so/Resume-a8ef68e5435345c890348d1f9f44270b"
+             href="https://mulberry-branch-c13.notion.site/Nyior-Clement-a8ef68e5435345c890348d1f9f44270b"
             target="blank"
             role="button"
             class="btn btn-lg px-4 py-2 outline-btn color-blue"
